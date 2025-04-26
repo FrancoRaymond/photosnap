@@ -2,8 +2,8 @@ import React from 'react'
 
 const Stories = () => {
   return (
-    <div>
-      
+    <div className='py-20 text-lg'>
+      STORIES PAGE
     </div>
   )
 }

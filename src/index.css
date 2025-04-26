@@ -4,3 +4,10 @@ body{
   max-width: 1440px;
   margin: 0 auto;
 }
+
+.activeMenu{
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.activeMenu ul{
+  @apply bg-white py-8 gap-5
+}

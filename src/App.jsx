@@ -1,10 +1,13 @@
 import React,{useState, useEffect, createContext, useContext} from 'react'
 import { Routes, Route } from 'react-router-dom'
+import Navbar from './components/Navbar';
+import Home from './pages/Home';
 import Stories from './pages/Stories';
 import Features from './pages/Features';
 import Pricing from './pages/Pricing';
 
 const AppContext = createContext()
+
 function App() {
   const [size, setSize] = useState(window.innerWidth);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -33,12 +36,12 @@ function App() {
     <AppContext.Provider value={{size, setIsMenuOpen, isMenuOpen}}>
       <Navbar />
       <Routes>
-        <Route path='/' element={<Stories/>}/>
-        <Route path='*' element={<Stories/>}/>
-        <Route path='/Features' element={<Features/>}/>
-        <Route path='/Pricing' element={<Pricing/>}/>
+        <Route path='/' element={<Home/>}/>
+        <Route path='*' element={<Home/>}/>
+        <Route path='/stories' element={<Stories/>}/>
+        <Route path='/features' element={<Features/>}/>
+        <Route path='/pricing' element={<Pricing/>}/>
       </Routes>
-      <Footer />
     </AppContext.Provider>
   )
 }
