@@ -1,6 +1,6 @@
 import React,{useState, useEffect, createContext, useContext} from 'react'
 import { Routes, Route } from 'react-router-dom'
-import Navbar from './components/Navbar';
+import Navbar from './components/utils/Navbar';
 import Home from './pages/Home';
 import Stories from './pages/Stories';
 import Features from './pages/Features';

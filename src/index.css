@@ -11,3 +11,14 @@ body{
 .activeMenu ul{
   @apply bg-white py-8 gap-5
 }
+.hero::before{
+  position: absolute;
+  content: '';
+  top: 0;
+  height: 6px;
+  width: 150px;
+  background: linear-gradient(to right, #f7bd93 0%, #f7bd93 20%, rgb(0, 59, 252) 80%, rgb(0, 59, 252) 100%);
+}
+.story{
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) 80%, transparent 100%);
+}

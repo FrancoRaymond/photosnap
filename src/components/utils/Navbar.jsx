@@ -1,7 +1,7 @@
 import React,{ useEffect} from 'react'
 import { Link } from 'react-router-dom';
-import { useAppContext } from '../App';
-import logo from '../assets/images/shared/logo.svg'
+import { useAppContext } from '../../App';
+import logo from '../../assets/images/shared/logo.svg'
 import { motion } from 'framer-motion';
 
 const Navbar = () => {
