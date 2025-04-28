@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Stories from './pages/Stories';
 import Features from './pages/Features';
 import Pricing from './pages/Pricing';
+import Footer from './components/utils/Footer';
 
 const AppContext = createContext()
 
@@ -42,6 +43,7 @@ function App() {
         <Route path='/features' element={<Features/>}/>
         <Route path='/pricing' element={<Pricing/>}/>
       </Routes>
+      <Footer />
     </AppContext.Provider>
   )
 }
