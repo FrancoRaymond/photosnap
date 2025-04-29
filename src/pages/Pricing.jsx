@@ -1,9 +1,13 @@
 import React from 'react'
+import PricingHero from '../components/pricing/PricingHero'
+import InviteSection from '../components/features/InviteSection'
+
 
 const Pricing = () => {
   return (
-    <div className='py-20 text-lg'>
-      PRICING PAGE
+    <div className='pt-16 '>
+      <PricingHero />
+      <InviteSection />
     </div>
   )
 }

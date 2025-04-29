@@ -1,6 +1,10 @@
 import responsiveness from '../images/features/responsive.svg'
 import photoLimit from '../images/features/no-limit.svg'
 import embed from '../images/features/embed.svg'
+import domain from '../images/features/custom-domain.svg'
+import exposure from '../images/features/boost-exposure.svg'
+import dragDrop from '../images/features/drag-drop.svg'
+
 
 export const features = [
     {
@@ -20,6 +24,24 @@ export const features = [
         icon : embed,
         heading : "Available to embed",
         discription : "Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube videos, Google Maps, and more. "
+    },
+    {
+        id : 4,
+        icon : domain,
+        heading : "Custom Domain",
+        discription : "With Photosnap subscriptions you can host your stories on your own domain. You can also remove our branding!"
+    },
+    {
+        id : 5,
+        icon : exposure,
+        heading : "Boost Your Exposure",
+        discription : "Users that viewed your story or gallery can easily get notifed of new and featured stories with our built in mailing list."
+    },
+    {
+        id : 6,
+        icon : dragDrop,
+        heading : "Drag & Drop Image",
+        discription : "Easily drag and drop your image and get beautiful shots everytime. No over the top tooling to add friction to creating stories."
     }
 ];
 

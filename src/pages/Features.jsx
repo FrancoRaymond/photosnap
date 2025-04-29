@@ -1,9 +1,14 @@
 import React from 'react'
+import FeaturesHero from '../components/features/FeaturesHero'
+import Benefits from '../components/features/Benefits'
+import InviteSection from '../components/features/InviteSection'
 
 const Features = () => {
   return (
-    <div className='py-20 text-lg'>
-      FEATURRES PAGE
+    <div className='pt-16 '>
+      <FeaturesHero />
+      <Benefits />
+      <InviteSection />
     </div>
   )
 }

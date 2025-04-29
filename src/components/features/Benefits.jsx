@@ -1,12 +1,11 @@
 import React from 'react'
 import { features } from '../../assets/data/data'
 
-const HomeFeatures = () => {
-  
+const Benefits = () => {
   return (
     <div className='py-20 lg:py-24 grid grid-cols-1 gap-16 md:grid-cols-3 md:px-5'>
         {
-            features.slice(0, 3).map(feature => (
+            features.map(feature => (
                 <div key={feature.id} className='flex flex-col gap-5 text-center'>
                     <div className='size-24 mx-auto flex items-center'>
                         <img src={feature.icon} alt="" className='w-24'/>
@@ -16,8 +15,9 @@ const HomeFeatures = () => {
                 </div>
             ))
         }
-    </div>
+    </div>   
   )
 }
 
-export default HomeFeatures;
+export default Benefits
+
