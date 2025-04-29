@@ -27,7 +27,7 @@ const Hero = () => {
         <div className='sm:flex sm:flex-row-reverse'>
             <img src={designedForEveryone} alt="" className='sm:w-[40%] lg:w-[60%] sm:object-cover'/>
             <div className='py-10 px-5 flex flex-col gap-6 relative sm:w-[60%] lg:w-[40%] sm:py-28 md:px-10 lg:px-20 justify-center'>
-                <h1 className='text-3xl text-black font-semibold'>DESIGNED FRO<br/>EVERYONE</h1>
+                <h1 className='text-3xl text-black font-semibold'>DESIGNED FOR<br/>EVERYONE</h1>
                 <p className='text-gray-400'>Photosnap can help you create stories that resonate with your audience. Our tool is designed for photographers of all levels, brands, businesses you name it.</p>
                 <button className='flex gap-5 items-center text-black cursor-pointer'>VIEW THE STORIES <img src={arrowBlack} alt="" /></button>
             </div>
@@ -36,4 +36,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default Hero;
