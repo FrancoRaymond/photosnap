@@ -6,7 +6,7 @@ const Plans = () => {
     // at the time of development a dollar was 18,61 south african rands 
 
   return (
-    <div className='py-16 px-2 sm:px-5 md:px-10 lg:px-24'>
+    <div className='pt-16 px-2 sm:px-5 md:px-10 lg:px-24'>
         <div className="flex gap-3 items-center mx-auto w-fit">
             <span className='text-black font-semibold'>Monthly</span>
             <button

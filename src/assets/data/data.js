@@ -178,3 +178,43 @@ export const stories = [
         author : "by William Malcom"
     }
 ]
+
+
+export const compare = [
+    {
+      label: "UNLIMITED STORY POSTING",
+      values: { BASIC: true, PRO: true, BUSINESS: true },
+    },
+    {
+      label: "UNLIMITED PHOTO UPLOAD",
+      values: { BASIC: true, PRO: true, BUSINESS: true },
+    },
+    {
+      label: "EMMBEDDING CUSTOM CONTENT",
+      values: { BASIC: false, PRO: true, BUSINESS: true },
+    },
+    {
+      label: "CUSTOMIZE METADATA",
+      values: { BASIC: false, PRO: true, BUSINESS: true },
+    },
+    {
+      label: "ADVANCED METRICS",
+      values: { BASIC: false, PRO: false, BUSINESS: true },
+    },
+    {
+      label: "PHOTO DOWNLOADS",
+      values: { BASIC: false, PRO: false, BUSINESS: true },
+    },
+    {
+      label: "SEARCH ENGINE INDEXING",
+      values: { BASIC: false, PRO: false, BUSINESS: true },
+    },
+    {
+      label: "CUSTOM ANALYTICS",
+      values: { BASIC: false, PRO: false, BUSINESS: true },
+    },
+  ];
+  
+  export const plans = ["BASIC", "PRO", "BUSINESS"];
+
+  
