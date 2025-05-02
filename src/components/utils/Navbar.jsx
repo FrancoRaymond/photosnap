@@ -27,7 +27,7 @@ const Navbar = () => {
         animate={isMenuOpen ? "visible" : "hidden"}
         variants={menuVariants}
         transition={{ duration: 0.5, ease: "easeInOut" }} 
-        className={`${size < 640 ? isMenuOpen ? 'activeMenu absolute block top-[52px] h-screen left-0 right-0 mx-auto w-full' : 'hidden' : ''}`}
+        className={`${size < 640 ? isMenuOpen ? 'activeMenu absolute block top-[48px] h-screen left-0 right-0 mx-auto w-full' : 'hidden' : ''}`}
       >
         <ul className={`flex gap-8 ${size < 640 ? 'flex-col items-center px-2 h-fit w-full text-black text-lg font-semibold' : 'flex-row'}`}>
           <li><Link onClick={closeMenu} to="/stories">Stories</Link></li> 
@@ -41,9 +41,9 @@ const Navbar = () => {
       ) : (
         <nav>
           <ul className={`flex gap-5 ${size < 640 ? 'flex-col items-center h-fit w-full' : 'flex-row'}`}>
-            <li className='hover:text-[#0e8684] transition duration-300'><Link onClick={closeMenu} to="/stories">Stories</Link></li>
-            <li className='hover:text-[#0e8684] transition duration-300'><Link onClick={closeMenu} to="/features">Features</Link></li>
-            <li className='hover:text-[#0e8684] transition duration-300'><Link onClick={closeMenu} to="/pricing">Pricing</Link></li>
+            <li className='hover:text-gray-500 transition duration-300'><Link onClick={closeMenu} to="/stories">Stories</Link></li>
+            <li className='hover:text-gray-500 transition duration-300'><Link onClick={closeMenu} to="/features">Features</Link></li>
+            <li className='hover:text-gray-500 transition duration-300'><Link onClick={closeMenu} to="/pricing">Pricing</Link></li>
           </ul> 
         </nav>
       )}
