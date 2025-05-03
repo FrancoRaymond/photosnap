@@ -2,8 +2,9 @@ import React from 'react'
 import whiteArrow from '../../assets/images/shared/arrow-white.svg'
 
 const StoriesHero = () => {
+
   return (
-    <div className="bg-[url('src/assets/images/stories/moon-of-appalacia.jpg')] bg-top-0 bg-no-repeat bg-center">
+    <div className="storiesBackground">
       <div className='py-24 flex flex-col gap-5 px-2 sm:pl-5 md:pl-10 lg:pl-24'>
         <h3 className='text-gray-200'>LAST MONTH'S FEATURED STORY</h3>
         <h2 className='text-5xl text-white font-semibold'>HAZY FULL<br/>MOON OF<br/>APPALACHIA</h2>

@@ -23,6 +23,10 @@ body{
   background: linear-gradient(to right, #f7bd93 0%, #f7bd93 20%, rgb(118, 0, 252) 80%, rgb(118, 0, 252) 100%);
 }
 
+.storiesBackground{
+  background: url("src/assets/images/stories/moon-of-appalacia.jpg") no-repeat center center / cover;
+}
+
 .story{
   background: linear-gradient(to top, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) 80%, transparent 100%);
 }
