@@ -22,10 +22,10 @@ const Footer = () => {
             </ul>
         </div>
         <ul className='flex flex-col gap-3 text-white text-center mt-10 md:mt-0 md:grow md:w-full md:text-left'>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/stories">Stories</Link></li>
-            <li><Link to="/features">Features</Link></li>
-            <li><Link to="/pricing">Pricing</Link></li>
+            <li className='hover:text-gray-400'><Link to="/">Home</Link></li>
+            <li className='hover:text-gray-400'><Link to="/stories">Stories</Link></li>
+            <li className='hover:text-gray-400'><Link to="/features">Features</Link></li>
+            <li className='hover:text-gray-400'><Link to="/pricing">Pricing</Link></li>
         </ul> 
         <div className='mt-16 flex flex-col gap-7 items-center md:mt-0 min-w-64 md:items-end md:justify-between'>
             <button className='flex gap-5 items-center text-white cursor-pointer'>GET AN INVITE <img src={arrowWhite} alt="" /></button>

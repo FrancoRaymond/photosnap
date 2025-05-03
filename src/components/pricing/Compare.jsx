@@ -11,31 +11,31 @@ const Compare = () => {
           <div key={index} className={`sm:flex sm:gap-5 sm:items-center max-w-3xl mx-auto text-sm font-semibold ${index === 0 ? "mt-16" : "mt-5"}`} >
             <div className="flex flex-col gap-5">
               {index === 0 && <p>THE FEATURES</p>}
-              <p>{feature.label}</p>
+              <p className='sm:mt-5'>{feature.label}</p>
             </div>
-            <div className="flex gap-10 sm:gap-16 mt-5 sm:mt-0 sm:ml-auto  sm:w-[273px]">
-                {
-                  plans.map((plan) => (
-                    <div key={plan} className="flex flex-col sm:items-center gap-2 sm:gap-5">
-                      <p className={`${index === 0 ? 'sm:block' : 'sm:hidden'}`}>{plan}</p>
-                      <p
-                        className="sm:flex sm:items-center"
-                        style={{
-                          width:
-                          plan === "BASIC"
-                            ? "44px"
-                            : plan === "PRO"
-                            ? "30.3px"
-                            : "71.5px",
-                        }}
-                      >
-                        {feature.values[plan] && (
-                          <img src={check} alt="check icon" className="sm:mx-auto" />
-                        )}
-                      </p>
-                    </div>
-                  ))
-                }
+            <div className="flex gap-10 sm:gap-16 mt-5 sm:mt-0 sm:ml-auto sm:w-[273px]">
+              {
+                plans.map((plan) => (
+                  <div key={plan} className="flex flex-col sm:items-center gap-2 sm:gap-5">
+                    <p className={`${index === 0 ? 'sm:block' : 'sm:hidden'}`}>{plan}</p>
+                    <p
+                      className="sm:flex sm:items-center"
+                      style={{
+                        width:
+                        plan === "BASIC"
+                          ? "44px"
+                          : plan === "PRO"
+                          ? "30.3px"
+                          : "71.5px",
+                      }}
+                    >
+                      {feature.values[plan] && (
+                        <img src={check} alt="check icon" className="sm:mx-auto sm:mt-5" />
+                      )}
+                    </p>
+                  </div>
+                ))
+              }
             </div>
           </div>
         ))

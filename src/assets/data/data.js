@@ -111,7 +111,7 @@ export const stories = [
         id : 7,
         image : kingafrica,
         date : "March 29th 2020",
-        heading : "Kinf on Africa: part ll",
+        heading : "King on Africa: part ll",
         author : "by Tim Hillenburg"
     },
     {
@@ -216,5 +216,3 @@ export const compare = [
   ];
   
   export const plans = ["BASIC", "PRO", "BUSINESS"];
-
-  

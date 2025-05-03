@@ -16,7 +16,7 @@ const HomeStories = () => {
                 <span>by John Appleseed</span>
                 <div className='flex justify-between items-center py-3 mt-3 border-t-2 border-gray-400'>
                     <span className='font-semibold'>READ STORY</span>
-                    <button><img src={whiteArrow} alt="" /></button>
+                    <button className='cursor-pointer'><img src={whiteArrow} alt="" /></button>
                 </div>
             </div>
         </div>
@@ -27,7 +27,7 @@ const HomeStories = () => {
                 <span>by Benjamin Cruz</span>
                 <div className='flex justify-between items-center py-3 mt-3 border-t-2 border-gray-400'>
                     <span className='font-semibold'>READ STORY</span>
-                    <button><img src={whiteArrow} alt="" /></button>
+                    <button className='cursor-pointer'><img src={whiteArrow} alt="" /></button>
                 </div>
             </div>
         </div>
@@ -38,7 +38,7 @@ const HomeStories = () => {
                 <span>by Alexei Borodin</span>
                 <div className='flex justify-between items-center py-3 mt-3 border-t-2 border-gray-400'>
                     <span className='font-semibold'>READ STORY</span>
-                    <button><img src={whiteArrow} alt="" /></button>
+                    <button className='cursor-pointer'><img src={whiteArrow} alt="" /></button>
                 </div>
             </div>
         </div>
@@ -49,7 +49,7 @@ const HomeStories = () => {
                 <span>by Samantha Brooke</span>
                 <div className='flex justify-between items-center py-3 mt-3 border-t-2 border-gray-400'>
                     <span className='font-semibold'>READ STORY</span>
-                    <button><img src={whiteArrow} alt="" /></button>
+                    <button className='cursor-pointer'><img src={whiteArrow} alt="" /></button>
                 </div>
             </div>
         </div>

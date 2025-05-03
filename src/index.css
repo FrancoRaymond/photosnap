@@ -9,9 +9,11 @@ body{
 .activeMenu{
   background-color: rgba(0, 0, 0, 0.8);
 }
+
 .activeMenu ul{
   @apply bg-white py-8 gap-5
 }
+
 .hero::before{
   position: absolute;
   content: '';
@@ -20,6 +22,16 @@ body{
   width: 150px;
   background: linear-gradient(to right, #f7bd93 0%, #f7bd93 20%, rgb(118, 0, 252) 80%, rgb(118, 0, 252) 100%);
 }
+
 .story{
   background: linear-gradient(to top, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) 80%, transparent 100%);
+}
+
+@media(min-width: 640px){
+  .hero::before{
+    rotate: 90deg;
+    top: 49%;
+    left: -24%;
+    width: 49%;
+  }
 }

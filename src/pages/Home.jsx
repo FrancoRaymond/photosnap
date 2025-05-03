@@ -6,7 +6,7 @@ import HomeFeatures from '../components/home/HomeFeatures'
 
 const Home = () => {
   return (
-    <div className='py-12 '>
+    <div className='py-16 '>
       <ScrollTop />
       <Hero />
       <HomeStories />

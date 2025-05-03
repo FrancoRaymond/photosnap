@@ -51,7 +51,7 @@ const Navbar = () => {
         <div className='w-8 h-0.5 bg-black'></div>
         <div className='w-8 h-0.5 bg-black'></div>
       </div>
-      <button className={`bg-black text-white py-1 px-5 ${size < 640 ? 'hidden' : 'block'}`}>
+      <button className={`bg-black text-white py-1 px-5 cursor-pointer ${size < 640 ? 'hidden' : 'block'}`}>
         Get an invite
       </button>
     </div>
